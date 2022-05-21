@@ -67,9 +67,9 @@ def run(net, beta2):
     return net_results
 
 if __name__ == "__main__":
-    cpu_cores = 50
-    mc_num = 100 
-    tmax = 80000
+    cpu_cores = 50 # number of cpu cores to be used
+    mc_num = 100   # number of independent simulation
+    tmax = 80000   # the maximum steps of prapagation
     # rho0 = 0.4
     rho0 = 0.005
 
